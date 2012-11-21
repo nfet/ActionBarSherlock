@@ -43,6 +43,9 @@
 				<extensions>true</extensions>
 				<configuration>
 					<nativeLibrariesDirectory>ignored</nativeLibrariesDirectory>
+                    <sdk>
+                        <platform>${android.platform}</platform>
+                    </sdk>
 				</configuration>
 			</plugin>
 
